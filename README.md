@@ -35,5 +35,5 @@ Features:
 ### Configuring
 1. Go to `Tools -> Options -> BN_Astyle`
 2. Enable automatic `Format on save` (or don't, depends on how you like it)
-3. Open `msvc-full-features\AStyleExtension-Cataclysm-DDA.cfg` with any text editor, copy content of `CppCommandLine` entry and paste it into `Formatting options`
+3. In BN repository, open `msvc-full-features\AStyleExtension-Cataclysm-DDA.cfg` with any text editor, copy contents of `CppCommandLine` entry and paste into `Formatting options`
 4. Close options window by pressing `Ok` in bottom-right corner
