@@ -20,15 +20,17 @@ Features:
 ## Using with Cataclysm Bright Nights project:
 
 ### Installing from Releases
-1. Download `.vsix` from Releases page
-2. Double click to install. Visual Studio installer should guide you from there
+1. Download `BN_Astyle.zip` from Releases page
+2. Unpack anywhere
+3. Double click `.vsix` to install. Visual Studio installer should guide you from there
 
 ### Installing from source
 1. Check out the repository
 2. Open `BN_Astyle.sln`
-3. Select `Release` / `Any CPU` configuation
-4. Build Solution
-5. If there were no issues, resulting `.vsix` should be in `BN_Astyle\bin\Release`
+3. Install any workloads Visual Studio prompts you to (.NET framework 4.8 and Extension SDK)
+4. Select `Release` / `Any CPU` configuation
+5. Build Solution
+6. If there were no issues, resulting `.vsix` should be in `BN_Astyle\bin\Release`. Double click to install
 
 ### Configuring
 1. Go to `Tools -> Options -> BN_Astyle`
