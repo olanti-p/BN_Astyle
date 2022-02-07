@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="BN_Astyle">
+    <Groups>
+      <Group guid="BN_Astyle" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="VSMainMenu" id="Edit"/>
+      </Group>
+    </Groups>
+
+    
+    <Buttons>
+      <!-- More or less mirrors "Format Document" command from astyle-extension. -->
+      <Button guid="BN_Astyle" id="FormatDocumentCommand" priority="0x0100" type="Button">
+        <Parent guid="BN_Astyle" id="MyMenuGroup"/>
+          <Icon guid="ImageCatalogGuid" id="ChangePassword"/>
+          <CommandFlag>IconIsMoniker</CommandFlag>
+          <CommandFlag>DefaultInvisible</CommandFlag>
+          <CommandFlag>DefaultDisabled</CommandFlag>
+          <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Format Document (BN_Astyle)</ButtonText>
+          <LocCanonicalName>.Edit.BN_Astyle.FormatDocument</LocCanonicalName>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="BN_Astyle" value="{d8a65517-2211-4117-9a74-d56257b6b17f}">
+      <IDSymbol name="MyMenuGroup" value="0x0001" />
+      <IDSymbol name="FormatDocumentCommand" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
