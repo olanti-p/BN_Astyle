@@ -3,6 +3,8 @@ BN_Astyle
 
 An extension for Visual Studio 2022 to format C/C++ documents using Artistic Style engine.
 
+Based on (and uses code snippets from): [astyle-extension](https://github.com/lukamicoder/astyle-extension) by lukamicoder
+
 More info on Artistic Style at http://astyle.sourceforge.net/
 
 Supported Visual Studio editions:
